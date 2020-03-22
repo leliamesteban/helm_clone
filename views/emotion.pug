@@ -1,0 +1,14 @@
+extends layout
+block content
+  .button
+    a(href="/index") Back
+  p How #{emotion} are you?
+  span 1
+  input(type="range", min=0, max=10)
+  span 10
+  p Pick an ideal #{emotion} level
+  span 1
+  input(type="range", min=0, max=10)
+  span 10
+  .button
+    a(href="/challenge") Next

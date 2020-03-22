@@ -1,0 +1,14 @@
+extends layout
+block content
+  h1.title The challenge
+  p Your extra anxiety is converted into credits.
+  blockquote
+    p Current Anxiety - Ideal Anxiety = Anxiety Credits
+  p.
+    Your objective is to spend all of it to bring your current anxiety level
+    down to an ideal level before the day ends.
+  h2.subtitle Spend credits on
+  span.is-right #{numberOfCredits} anxiety credits
+  include objectives
+  .button
+    a(href="/reward") Next

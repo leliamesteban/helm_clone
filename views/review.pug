@@ -1,0 +1,6 @@
+extends layout
+block content
+  h1 Review
+  p Please rate your #{emotion} levels after having spent your anxiety credits
+  input(type="range", min=0, max=10)
+  a(href="/") Next
